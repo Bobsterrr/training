@@ -1,0 +1,39 @@
+body {
+    all: unset;
+    background-color: #898E88;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    font-size: 20px;
+    color: red;
+    border: 4px solid white;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    border: 3px solid red;
+    transition: 1s;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+    border: 2px solid blue;
+}
+
+.quote {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 300;
+}
