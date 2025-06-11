@@ -1,0 +1,66 @@
+body {
+    all: unset;
+}
+
+.setup, .disabledS {
+    padding-left: 25px;
+    text-align: center;
+    font-size: 24px;
+    color: crimson;
+}
+
+.punchline, .disabledP {
+    padding-left: 25px;
+    font-size: 24px;
+    color: cornflowerblue;
+}
+
+button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#setup_button {
+    background-color: rgb(220, 20, 60);
+    color: cornsilk;
+    border: 2px solid rgb(205, 150, 150);
+}
+
+#punchline_button {
+    background-color: rgb(100, 149, 237);
+    color: cornsilk;
+    border: 2px solid rgb(150, 150, 205);
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+#setup_flex {
+    display: flex;
+    align-items: center;
+}
+
+#punchline_flex {
+    display: flex;
+    align-items: center;
+}
+
+#setup_button:hover {
+    background-color: rgb(190, 0, 30);
+    transition: 0.5s;
+}
+
+#punchline_button:hover {
+    background-color: rgb(70, 129, 207);
+    transition: 0.5s;
+}
+
+.userAssumption {
+    color: forestgreen;
+    font-size: 24px;
+}

@@ -37,3 +37,9 @@ button:active {
     font-size: 20px;
     font-weight: 300;
 }
+
+.error {
+    color: red;
+    font-size: 20px;
+    font-weight: 300;
+}
